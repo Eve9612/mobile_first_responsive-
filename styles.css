@@ -11,11 +11,20 @@ header{
     background-color: blue;
     height: 100px;
 }
+
+#encoder  {
+    border: 1px solid black;
+} 
+
+#decoder {
+    border: 1px solid black;
+}
  
 nav{
     width: 100%;
-    background-color: purple;
+    /* background-color: purple; */
     height: 50px;
+    position: relative;
 }
  
 #container{
@@ -40,6 +49,38 @@ footer{
     height: 100%;
 }
  
+ul {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    top: 39px;
+    left: -38px;
+    flex-direction: column;
+}
+
+#Hamburger {
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 0 0 5px;
+    box-shadow: 5px 10px grey;
+
+}
+#Hamburger > div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px auto;
+}
+
+ul >li {
+    background-color: azure;
+    width: 100px;
+}
+
+
 @media only screen and (min-width: 421px){
     body{
         background-color:antiquewhite;
@@ -61,3 +102,5 @@ footer{
 }
 @media only screen and (min-width: 724px){
 }
+
+
