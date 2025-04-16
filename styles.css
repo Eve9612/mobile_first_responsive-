@@ -1,14 +1,14 @@
 #responsive{
     width: 90%;
     margin: 0 auto;
-    background-color: #d00fd3;
+    background-color: #00C0D1;
     border: 0.5px solid red;
     max-width: 420px;
 }
 
 header{
     width: 100%;
-    background-color: blue;
+    background-color: rgb(18, 102, 237);
     height: 100px;
 }
 
@@ -39,7 +39,7 @@ footer{
 }
  
 #sidebar{
-    background-color: blueviolet;
+    background-color: rgb(43, 226, 195);
     display: none;
     height: 100%;
 }
@@ -92,14 +92,14 @@ ul#sidebaritems{
     }
  
     #sidebar{
-        background-color: blueviolet;
+        background-color: #E6EFEA;
         display: inline;
         height: 100%;
         width: 20%;
     }
 
     #inner-container{
-        background-color: chartreuse;
+        background-color: #AFD238;
         height: 100%;
         width: 80%;
     }
